@@ -1,0 +1,324 @@
+{
+  "rules": [
+    {
+      "action": "ALLOW",
+      "resource_type": "Rule",
+      "id": "HTTP",
+      "display_name": "Detect HTTP",
+      "path": "/infra/domains/default/security-policies/New_Policy-PFbC8XcIBh/rules/HTTP",
+      "relative_path": "HTTP",
+      "parent_path": "/infra/domains/default/security-policies/New_Policy-PFbC8XcIBh",
+      "remote_path": "",
+      "unique_id": "00000000-0000-0000-0000-000000023532",
+      "realization_id": "00000000-0000-0000-0000-000000023532",
+      "owner_id": "d690e10a-8d48-4045-8117-ef3fc2ca4f87",
+      "marked_for_delete": false,
+      "overridden": false,
+      "rule_id": 23532,
+      "sequence_number": 5,
+      "sources_excluded": false,
+      "destinations_excluded": false,
+      "source_groups": [
+        "ANY"
+      ],
+      "destination_groups": [
+        "ANY"
+      ],
+      "services": [
+        "ANY"
+      ],
+      "profiles": [
+        "/infra/context-profiles/HTTP"
+      ],
+      "logged": true,
+      "scope": [
+        "ANY"
+      ],
+      "disabled": true,
+      "notes": "",
+      "direction": "IN_OUT",
+      "tag": "UNENCRYPTED_TRAFFIC",
+      "ip_protocol": "IPV4_IPV6",
+      "is_default": false,
+      "_system_owned": false,
+      "_protection": "NOT_PROTECTED",
+      "_create_time": 1715980138899,
+      "_create_user": "admin",
+      "_last_modified_time": 1770741928063,
+      "_last_modified_user": "admin",
+      "_revision": 4
+    },
+    {
+      "action": "ALLOW",
+      "resource_type": "Rule",
+      "id": "TFTP",
+      "display_name": "Detect TFTP",
+      "path": "/infra/domains/default/security-policies/New_Policy-PFbC8XcIBh/rules/TFTP",
+      "relative_path": "TFTP",
+      "parent_path": "/infra/domains/default/security-policies/New_Policy-PFbC8XcIBh",
+      "remote_path": "",
+      "unique_id": "00000000-0000-0000-0000-000000023533",
+      "realization_id": "00000000-0000-0000-0000-000000023533",
+      "owner_id": "d690e10a-8d48-4045-8117-ef3fc2ca4f87",
+      "marked_for_delete": false,
+      "overridden": false,
+      "rule_id": 23533,
+      "sequence_number": 6,
+      "sources_excluded": false,
+      "destinations_excluded": false,
+      "source_groups": [
+        "ANY"
+      ],
+      "destination_groups": [
+        "ANY"
+      ],
+      "services": [
+        "/infra/services/TFTP"
+      ],
+      "profiles": [
+        "/infra/context-profiles/TFTP"
+      ],
+      "logged": true,
+      "scope": [
+        "ANY"
+      ],
+      "disabled": true,
+      "notes": "",
+      "direction": "IN_OUT",
+      "tag": "UNENCRYPTED_TRAFFIC",
+      "ip_protocol": "IPV4_IPV6",
+      "is_default": false,
+      "_system_owned": false,
+      "_protection": "NOT_PROTECTED",
+      "_create_time": 1715980138935,
+      "_create_user": "admin",
+      "_last_modified_time": 1770741928140,
+      "_last_modified_user": "admin",
+      "_revision": 4
+    },
+    {
+      "action": "ALLOW",
+      "resource_type": "Rule",
+      "id": "FTP",
+      "display_name": "Detect FTP",
+      "path": "/infra/domains/default/security-policies/New_Policy-PFbC8XcIBh/rules/FTP",
+      "relative_path": "FTP",
+      "parent_path": "/infra/domains/default/security-policies/New_Policy-PFbC8XcIBh",
+      "remote_path": "",
+      "unique_id": "00000000-0000-0000-0000-000000023534",
+      "realization_id": "00000000-0000-0000-0000-000000023534",
+      "owner_id": "d690e10a-8d48-4045-8117-ef3fc2ca4f87",
+      "marked_for_delete": false,
+      "overridden": false,
+      "rule_id": 23534,
+      "sequence_number": 7,
+      "sources_excluded": false,
+      "destinations_excluded": false,
+      "source_groups": [
+        "ANY"
+      ],
+      "destination_groups": [
+        "ANY"
+      ],
+      "services": [
+        "/infra/services/FTP"
+      ],
+      "profiles": [
+        "/infra/context-profiles/FTP"
+      ],
+      "logged": true,
+      "scope": [
+        "ANY"
+      ],
+      "disabled": true,
+      "notes": "",
+      "direction": "IN_OUT",
+      "tag": "UNENCRYPTED_TRAFFIC",
+      "ip_protocol": "IPV4_IPV6",
+      "is_default": false,
+      "_system_owned": false,
+      "_protection": "NOT_PROTECTED",
+      "_create_time": 1715980138979,
+      "_create_user": "admin",
+      "_last_modified_time": 1770741928150,
+      "_last_modified_user": "admin",
+      "_revision": 4
+    },
+    {
+      "action": "ALLOW",
+      "resource_type": "Rule",
+      "id": "IMAP",
+      "display_name": "Detect IMAP",
+      "path": "/infra/domains/default/security-policies/New_Policy-PFbC8XcIBh/rules/IMAP",
+      "relative_path": "IMAP",
+      "parent_path": "/infra/domains/default/security-policies/New_Policy-PFbC8XcIBh",
+      "remote_path": "",
+      "unique_id": "00000000-0000-0000-0000-000000023535",
+      "realization_id": "00000000-0000-0000-0000-000000023535",
+      "owner_id": "d690e10a-8d48-4045-8117-ef3fc2ca4f87",
+      "marked_for_delete": false,
+      "overridden": false,
+      "rule_id": 23535,
+      "sequence_number": 17,
+      "sources_excluded": false,
+      "destinations_excluded": false,
+      "source_groups": [
+        "ANY"
+      ],
+      "destination_groups": [
+        "ANY"
+      ],
+      "services": [
+        "ANY"
+      ],
+      "profiles": [
+        "/infra/context-profiles/IMAP"
+      ],
+      "logged": true,
+      "scope": [
+        "ANY"
+      ],
+      "disabled": true,
+      "notes": "",
+      "direction": "IN_OUT",
+      "tag": "UNENCRYPTED_TRAFFIC",
+      "ip_protocol": "IPV4_IPV6",
+      "is_default": false,
+      "_system_owned": false,
+      "_protection": "NOT_PROTECTED",
+      "_create_time": 1715980139009,
+      "_create_user": "admin",
+      "_last_modified_time": 1770741928163,
+      "_last_modified_user": "admin",
+      "_revision": 4
+    },
+    {
+      "action": "ALLOW",
+      "resource_type": "Rule",
+      "id": "POP3",
+      "display_name": "Detect POP3",
+      "path": "/infra/domains/default/security-policies/New_Policy-PFbC8XcIBh/rules/POP3",
+      "relative_path": "POP3",
+      "parent_path": "/infra/domains/default/security-policies/New_Policy-PFbC8XcIBh",
+      "remote_path": "",
+      "unique_id": "00000000-0000-0000-0000-000000023536",
+      "realization_id": "00000000-0000-0000-0000-000000023536",
+      "owner_id": "d690e10a-8d48-4045-8117-ef3fc2ca4f87",
+      "marked_for_delete": false,
+      "overridden": false,
+      "rule_id": 23536,
+      "sequence_number": 27,
+      "sources_excluded": false,
+      "destinations_excluded": false,
+      "source_groups": [
+        "ANY"
+      ],
+      "destination_groups": [
+        "ANY"
+      ],
+      "services": [
+        "ANY"
+      ],
+      "profiles": [
+        "/infra/context-profiles/POP3"
+      ],
+      "logged": true,
+      "scope": [
+        "ANY"
+      ],
+      "disabled": true,
+      "notes": "",
+      "direction": "IN_OUT",
+      "tag": "UNENCRYPTED_TRAFFIC",
+      "ip_protocol": "IPV4_IPV6",
+      "is_default": false,
+      "_system_owned": false,
+      "_protection": "NOT_PROTECTED",
+      "_create_time": 1715980139043,
+      "_create_user": "admin",
+      "_last_modified_time": 1770741928177,
+      "_last_modified_user": "admin",
+      "_revision": 4
+    },
+    {
+      "action": "ALLOW",
+      "resource_type": "Rule",
+      "id": "Telnet",
+      "display_name": "Detect Telnet",
+      "path": "/infra/domains/default/security-policies/New_Policy-PFbC8XcIBh/rules/Telnet",
+      "relative_path": "Telnet",
+      "parent_path": "/infra/domains/default/security-policies/New_Policy-PFbC8XcIBh",
+      "remote_path": "",
+      "unique_id": "00000000-0000-0000-0000-000000023537",
+      "realization_id": "00000000-0000-0000-0000-000000023537",
+      "owner_id": "d690e10a-8d48-4045-8117-ef3fc2ca4f87",
+      "marked_for_delete": false,
+      "overridden": false,
+      "rule_id": 23537,
+      "sequence_number": 37,
+      "sources_excluded": false,
+      "destinations_excluded": false,
+      "source_groups": [
+        "ANY"
+      ],
+      "destination_groups": [
+        "ANY"
+      ],
+      "services": [
+        "ANY"
+      ],
+      "profiles": [
+        "/infra/context-profiles/TELNET"
+      ],
+      "logged": true,
+      "scope": [
+        "ANY"
+      ],
+      "disabled": true,
+      "notes": "",
+      "direction": "IN_OUT",
+      "tag": "UNENCRYPTED_TRAFFIC",
+      "ip_protocol": "IPV4_IPV6",
+      "is_default": false,
+      "_system_owned": false,
+      "_protection": "NOT_PROTECTED",
+      "_create_time": 1715980139073,
+      "_create_user": "admin",
+      "_last_modified_time": 1770741928191,
+      "_last_modified_user": "admin",
+      "_revision": 4
+    }
+  ],
+  "logging_enabled": false,
+  "resource_type": "SecurityPolicy",
+  "id": "New_Policy-PFbC8XcIBh",
+  "display_name": "Detect Unencrypted Protocols",
+  "path": "/infra/domains/default/security-policies/New_Policy-PFbC8XcIBh",
+  "relative_path": "New_Policy-PFbC8XcIBh",
+  "parent_path": "/infra/domains/default",
+  "remote_path": "",
+  "unique_id": "48341b55-9aff-48b3-ab20-5e84f8d3df35",
+  "realization_id": "48341b55-9aff-48b3-ab20-5e84f8d3df35",
+  "owner_id": "d690e10a-8d48-4045-8117-ef3fc2ca4f87",
+  "marked_for_delete": false,
+  "overridden": false,
+  "sequence_number": 2,
+  "internal_sequence_number": 9000002,
+  "category": "Application",
+  "stateful": true,
+  "tcp_strict": true,
+  "locked": false,
+  "lock_modified_time": 0,
+  "scope": [
+    "ANY"
+  ],
+  "rule_count": 6,
+  "is_default": false,
+  "_system_owned": false,
+  "_protection": "NOT_PROTECTED",
+  "_create_time": 1715980138851,
+  "_create_user": "admin",
+  "_last_modified_time": 1770742047576,
+  "_last_modified_user": "admin",
+  "_revision": 1
+}
